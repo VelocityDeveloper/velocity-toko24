@@ -1,6 +1,6 @@
 Velocity Child Toko Online 24
 =================
-[24.velocitydeveloper.com](https://24.velocitydeveloper.com/)
+[toko24.velocitydeveloper.com](https://toko24.velocitydeveloper.com/)
 
 Child Theme for the Velocity System WordPress theme.
 
