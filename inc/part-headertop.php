@@ -29,10 +29,10 @@
         </div>
         <div class="d-flex justify-content-center">
             <div class="search-header bg-light p-1">
-                <form action="<?php echo esc_url(get_post_type_archive_link('store_product') ?: home_url('/')); ?>" class="d-flex" method="get" role="search">
-                    <input class="form-control form-control-sm" type="text" name="s" placeholder="Cari produk..." aria-label="Cari produk" value="<?php echo esc_attr(get_search_query()); ?>">
+                <form action="<?php echo esc_url(get_post_type_archive_link('store_product') ?: home_url('/')); ?>" class="d-flex h-100" method="get" role="search">
+                    <input class="form-control" type="text" name="s" placeholder="Cari produk..." aria-label="Cari produk" value="<?php echo esc_attr(get_search_query()); ?>">
                     <input type="hidden" name="post_type" value="store_product">
-                    <button type="submit" class="btn btn-sm bg-theme text-white" aria-label="Cari"><?php echo velocity_toko24_ikon('cari'); ?></button>
+                    <button type="submit" class="btn bg-theme text-white" aria-label="Cari"><?php echo velocity_toko24_ikon('cari', 18); ?></button>
                 </form>
             </div>
             <div class="profile-icons px-2 order-1">
